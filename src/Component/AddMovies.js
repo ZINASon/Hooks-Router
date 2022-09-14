@@ -34,7 +34,7 @@ const AddMovies = (props) => {
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>MMovie Adding</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Form>
@@ -57,8 +57,7 @@ const AddMovies = (props) => {
                   onChange={handleChange}
                   name = "description"
                   autoFocus
-                  
-                />
+                  />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Rating</Form.Label>
